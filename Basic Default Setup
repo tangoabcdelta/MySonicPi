@@ -1,0 +1,28 @@
+# Welcome to Sonic Pi v2.9
+
+live_loop :flibble do
+  sample :bd_haus, rate: 1
+  sample :drum_heavy_kick
+  sleep 0.5
+end
+
+live_loop :cmajor do
+  use_synth :saw
+  
+  # replace your favorite chord progression here
+  # chord Ab-major, Progression 1, AbCEb
+  play :ab3
+  play :c3
+  play :eb3
+  sleep 0.5
+  # chord Ab-major, Progression 4, DbFAb
+  play :db3
+  play :f3
+  play :ab3
+  sleep 0.5
+  # chord Ab-major, Progression 5, EbGBb
+  play :eb3
+  play :g3
+  play :bb3
+  sleep 0.5
+end
