@@ -1,0 +1,18 @@
+# Let's play synth-piano
+
+# lower the number, lower the pitch, corresponding lower part of the piano (the left hand side)
+# higher the number, higher the pitch, corresponding higher part of the piano (the right hand side)
+# pitch is synonymous with frequency
+
+live_loop :synth do
+  use_synth :sine
+  play 70; sleep 0.125;
+  play 72; sleep 0.125;
+  play 74; sleep 0.125;
+  play 75; sleep 0.125;
+
+  play 74; sleep 0.125;
+  play 70; sleep 0.125;
+  play 72; sleep 0.125;
+  play 74; sleep 0.125;
+end
