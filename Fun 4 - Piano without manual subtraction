@@ -1,0 +1,60 @@
+# Let's play synth-piano
+
+# lower the number, lower the pitch, corresponding lower part of the piano (the left hand side)
+# higher the number, higher the pitch, corresponding higher part of the piano (the right hand side)
+# pitch is synonymous with frequency
+
+# now, let's say we want to play our notes simeltaneously across the octaves.
+# it's the same thing as playing the same keys on the piano at both the left-most end
+# and the right most end
+
+
+# Now let's take it an octave below.
+# An octave consists of 12 notes.
+# So, you can subtract 12 from the aforementioned numbers & play
+
+# why do the counting manually?
+# why not use the computer to do the calculations?
+
+# this time, we do it slightly different
+
+live_loop :piano1 do
+  play 70; play 70-12; sleep 0.25;
+  play 72; play 72-12; sleep 0.25;
+  play 74; play 74-12; sleep 0.25;
+  play 75; play 75-12; sleep 0.25;
+end
+
+# why stop there?
+# let's take it one notch above
+
+
+live_loop :piano2 do
+  play 70; play 70-12; play 70-24; sleep 0.25;
+  play 72; play 72-12; play 72-24; sleep 0.25;
+  play 74; play 74-12; play 74-24; sleep 0.25;
+  play 75; play 75-12; play 75-24; sleep 0.25;
+end
+
+
+live_loop :piano3 do
+  play 70; play 70-12; play 70-24; play 70-36; sleep 0.25;
+  play 72; play 72-12; play 72-24; play 70-36; sleep 0.25;
+  play 74; play 74-12; play 74-24; play 70-36; sleep 0.25;
+  play 75; play 75-12; play 75-24; play 70-36; sleep 0.25;
+end
+
+
+# or, taking going in the opposite direction:
+# adding to the initial values
+
+live_loop :piano4 do
+  play 70+12; play 70; play 70-12; play 70-24; sleep 0.25;
+  play 72+12; play 72; play 72-12; play 72-24; sleep 0.25;
+  play 74+12; play 74; play 74-12; play 74-24; sleep 0.25;
+  play 75+12; play 75; play 75-12; play 75-24; sleep 0.25;
+end
+
+
+# note: subtraction or addition should be done only in multiples of 12
+
