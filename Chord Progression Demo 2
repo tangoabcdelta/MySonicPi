@@ -1,0 +1,221 @@
+  ####################################
+  # Chord C-major, Progression 1, CEG
+  play :c3
+  play :e3
+  play :g3
+  sleep 0.5
+  # Chord C-major, Progression 4, FAC
+  play :f3
+  play :a3
+  play :c3
+  sleep 0.5
+  # Chord C-major, Progression 5, GBD
+  play :g3
+  play :b3
+  play :d3
+  sleep 0.5
+  
+  ####################################
+  # chord D-major, Progression 1, DF#A
+  play :d3
+  play :fs3
+  play :a3
+  sleep 0.5
+  # chord G-major, Progression 4, GBD
+  play :g3
+  play :b3
+  play :d3
+  sleep 0.5
+  # chord G-major, Progression 5, DF#A
+  play :d3
+  play :fs3
+  play :a3
+  sleep 0.5
+  ####################################
+
+  ####################################
+  # chord E-major, Progression 1, EG#B
+  play :e3
+  play :gs3
+  play :b3
+  sleep 0.5
+  # chord E-major, Progression 4, AC#E
+  play :a3
+  play :cs3
+  play :e3
+  sleep 0.5
+  # chord E-major, Progression 5, BD#F#
+  play :b3
+  play :ds3
+  play :fs3
+  sleep 0.5
+  ####################################
+
+  ####################################
+  # Chord F-major, Progression 1, FAC
+  play :f3
+  play :a3
+  play :c3
+  sleep 0.5
+  # Chord F-major, Progression 4, BbDF
+  play :bb3
+  play :d3
+  play :f3
+  sleep 0.5
+  # Chord F-major, Progression 5, CEG
+  play :c3
+  play :e3
+  play :g3
+  sleep 0.5
+  ####################################
+
+  ####################################
+  # chord G-major, Progression 1, GBD
+  play :g3
+  play :b3
+  play :d3
+  sleep 0.5
+  # chord G-major, Progression 4, CEG
+  play :c3
+  play :e3
+  play :g3
+  sleep 0.5
+  # chord G-major, Progression 5, DF#A
+  play :d3
+  play :fs3
+  play :a3
+  sleep 0.5
+  ####################################
+  
+  ####################################
+  # chord A-major, Progression 1, AC#E
+  play :a3
+  play :cs3
+  play :e3
+  sleep 0.5
+  # chord A-major, Progression 4, DF#A
+  play :d3
+  play :fs3
+  play :a3
+  sleep 0.5
+  # chord A-major, Progression 5, EG#B
+  play :e3
+  play :gs3
+  play :b3
+  sleep 0.5
+  ####################################
+  
+  ####################################
+  # chord B-major, Progression 1, BD#F#
+  play :b3
+  play :ds3
+  play :fs3
+  sleep 0.5
+  # chord B-major, Progression 4, EG#B
+  play :e3
+  play :gs3
+  play :b3
+  sleep 0.5
+  # chord B-major, Progression 5, F#A#C#
+  play :fs3
+  play :as3
+  play :cs3
+  sleep 0.5
+  ####################################
+  
+  
+  ####################################
+  # chord C#-major, Progression 1, C#FG#
+  play :cs3
+  play :f3
+  play :gs3
+  sleep 0.5
+  # chord C#-major, Progression 4, F#A#C#
+  play :fs3
+  play :as3
+  play :cs3
+  sleep 0.5
+  # chord C#-major, Progression 5, G#CD#
+  play :gs3
+  play :c3
+  play :ds3
+  sleep 0.5
+  ####################################
+  
+  
+  ####################################
+  # chord F#-major, Progression 1, F#A#C#
+  play :fs3
+  play :as3
+  play :cs3
+  sleep 0.5
+  # chord F#-major, Progression 4, BD#F#
+  play :b3
+  play :ds3
+  play :fs3
+  sleep 0.5
+  # chord F#-major, Progression 5, C#FG#
+  play :cs3
+  play :f3
+  play :gs3
+  sleep 0.5
+  ####################################
+
+
+  ####################################
+  # chord Bb-major, Progression 1, BbDF
+  play :bb3
+  play :d3
+  play :f3
+  sleep 0.5
+  # chord Bb-major, Progression 4, EbGBb
+  play :eb3
+  play :g3
+  play :bb3
+  sleep 0.5
+  # chord Bb-major, Progression 5, FAC
+  play :f3
+  play :a3
+  play :c3
+  sleep 0.5
+  ####################################
+  
+  ####################################
+  # chord Eb-major, Progression 1, EbGBb
+  play :eb3
+  play :g3
+  play :bb3
+  sleep 0.5
+  # chord Eb-major, Progression 4, AbCEb
+  play :ab3
+  play :c3
+  play :eb3
+  sleep 0.5
+  # chord Eb-major, Progression 5, BbDF
+  play :bb3
+  play :d3
+  play :f3
+  sleep 0.5
+  
+  ####################################
+  # chord Ab-major, Progression 1, AbCEb
+  play :ab3
+  play :c3
+  play :eb3
+  sleep 0.5
+  # chord Ab-major, Progression 4, DbFAb
+  play :db3
+  play :f3
+  play :ab3
+  sleep 0.5
+  # chord Ab-major, Progression 5, EbGBb
+  play :eb3
+  play :g3
+  play :bb3
+  sleep 0.5
+  ####################################
+  
+  
+  
+  
+  
