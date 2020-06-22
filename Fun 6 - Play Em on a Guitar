@@ -1,0 +1,10 @@
+# Let's strum E-minor on a guitar
+
+live_loop :StrumTheGuitar do
+  play :E2;  sleep 0.125;
+  play :B3;  sleep 0.125;
+  play :E4;  sleep 0.125;
+  play :G4;  sleep 0.125;
+  play :B4;  sleep 0.125;
+  play :E5;  sleep 0.125;
+end
