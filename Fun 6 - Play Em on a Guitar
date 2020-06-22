@@ -1,10 +1,10 @@
 # Let's strum E-minor on a guitar
 
 live_loop :StrumTheGuitar do
-  play :E2;  sleep 0.125;
+  play :E2;  sleep 0.125; #represets the thickest E-string
   play :B3;  sleep 0.125;
   play :E4;  sleep 0.125;
-  play :G4;  sleep 0.125;
+  play :G4;  sleep 0.125; #represets the middle G-string
   play :B4;  sleep 0.125;
-  play :E5;  sleep 0.125;
+  play :E5;  sleep 0.125; #represets the thinnest E-string
 end
